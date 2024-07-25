@@ -12,13 +12,15 @@
 // NaN   (Not a Number)
 
 
-let number = 25;
-// let sum  = "10" + number * 2 +(number+"12")
-let sum  = "10" + number * 2 +(number+12)
+// let number = 25;
+// // // let sum  = "10" + number * 2 +(number+"12")
+// // let sum  = "10" + number * 2 +(number+12)
 
-console.log(sum);
 
-console.log(typeof(number +"12"));
+
+
+
+// console.log(8**3);
 
 //25 Salom
  
