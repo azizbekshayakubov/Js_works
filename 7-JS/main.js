@@ -56,45 +56,69 @@
 
 // console.log(users ,person);
 
-let radius = 10;
-const pi =3.14;
+// let radius = 10;
+// const pi =3.14;
 
-// console.log(radius,pi);
+// // console.log(radius,pi);
 
-// math operators +,-,*,/,**,
+// // math operators +,-,*,/,**,
 
-// let result = 10%3
+// // let result = 10%3
+
+// // console.log(result);
+
+// // console.log(10 / 2);
+
+// // let result = pi * radius ** 2
+
+// //order of operation
+
+// // let result = 5 * (10-3) ** 2
+
+// let like = 10
+
+// // like = like + 1
+// // like++
+// // like--
+// // like = like+10
+// // like += 12
+// // like -= 8
+// // like /= 2
+
+// // like *= 2
+
+// // //Nan -not a number
+
+// // console.log(5/"salom");
+
+// // console.log(like);
+
+
+// let result = 'the blog has ' + like + ' likes'
 
 // console.log(result);
 
-// console.log(10 / 2);
 
-// let result = pi * radius ** 2
+const title = 'Rastamojka qachon ochiladi ? yohud Monopoliya'
+const author = "Lag'mon markazi"
+const likes= 3500000
 
-//order of operation
+// console.log(author);
+//concatentation way
 
-// let result = 5 * (10-3) ** 2
-
-let like = 10
-
-// like = like + 1
-// like++
-// like--
-// like = like+10
-// like += 12
-// like -= 8
-// like /= 2
-
-// like *= 2
-
-// //Nan -not a number
-
-// console.log(5/"salom");
-
-// console.log(like);
+// let result = 'Bu post nomi ' + title + ' ' + author + ' tominidan yozilgan.' + ' va bu posta ' + likes + ' like bor'
+// console.log(result);
 
 
-let result = 'the blog has ' + like + ' likes'
+//template string way
+
+// let result = `Bu post nomi ${title}, ${author} tomindan yozilgan. Va bu postda ${likes} ta like bor`
+
+let result = `
+ <h2>${title}</h2>
+ <p>${author}</p> tomonidan yozilgan
+ <span>${title}</span>
+`
 
 console.log(result);
 
