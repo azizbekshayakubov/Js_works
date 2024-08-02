@@ -99,26 +99,34 @@
 // console.log(result);
 
 
-const title = 'Rastamojka qachon ochiladi ? yohud Monopoliya'
-const author = "Lag'mon markazi"
-const likes= 3500000
+// const title = 'Rastamojka qachon ochiladi ? yohud Monopoliya'
+// const author = "Lag'mon markazi"
+// const likes= 3500000
 
-// console.log(author);
-//concatentation way
+// // console.log(author);
+// //concatentation way
 
-// let result = 'Bu post nomi ' + title + ' ' + author + ' tominidan yozilgan.' + ' va bu posta ' + likes + ' like bor'
+// // let result = 'Bu post nomi ' + title + ' ' + author + ' tominidan yozilgan.' + ' va bu posta ' + likes + ' like bor'
+// // console.log(result);
+
+
+// //template string way
+
+// // let result = `Bu post nomi ${title}, ${author} tomindan yozilgan. Va bu postda ${likes} ta like bor`
+
+// let result = `
+//  <h2>${title}</h2>
+//  <p>${author}</p> tomonidan yozilgan
+//  <span>${title}</span>
+// `
+
 // console.log(result);
 
+const mehmonlar = ['Bek', 'MuhammadSaid' , 'Asror', 12 ,23]
 
-//template string way
 
-// let result = `Bu post nomi ${title}, ${author} tomindan yozilgan. Va bu postda ${likes} ta like bor`
+console.log(mehmonlar);
 
-let result = `
- <h2>${title}</h2>
- <p>${author}</p> tomonidan yozilgan
- <span>${title}</span>
-`
 
-console.log(result);
+
 
