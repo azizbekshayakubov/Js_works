@@ -88,37 +88,65 @@
 // console.log(arr1);
 
 
-let arr= [1,2,3,4,5]
+// let arr= [1,2,3,4,5]
 
-function x (arr) {
-    let arr1 = []
-    let sum = 0
+// function x (arr) {
+//     let arr1 = []
+//     let sum = 0
 
-    for (let index = 0; index < arr.length; index++) {
+//     for (let index = 0; index < arr.length; index++) {
         
-        console.log(arr[index]);
+//         console.log(arr[index]);
         
 
-         if (arr[index] % 2 === 0) {
+//          if (arr[index] % 2 === 0) {
          
-        // sum += arr[index]
-        arr1.unshift(sum)
-    } else {
-        sum = sum +arr[index]
+//         // sum += arr[index]
+//         arr1.unshift(sum)
+//     } else {
+//         sum = sum +arr[index]
 
-        arr1.push(sum)
-    }
+//         arr1.push(sum)
+//     }
         
         
-    }
+//     }
 
-    return [arr1]
-}
+//     return [arr1]
+// }
 
-console.log(arr1);
+// console.log(arr1);
+
+
+// function x (arrr) {
+//     let a = 0
+//     let b = 0
+    
+//     for (let index = 0; index < arrr.length; index++) {
+        
+//        if (arrr[index] % 2 === 0) {
+         
+//         a+= arrr[index]
+//         a = a + arrr[index]
+
+//        } else {
+//          b  += arrr[i]
+//        }
+
+//     }
+//     return [a , b]
+
+    
+// }
+
+// console.log(x (arrr));
 
 
 
+// let x = "Rohit Mehra"
+
+
+// console.log(x.split(" "));
 
 
 
