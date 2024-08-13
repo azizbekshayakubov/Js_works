@@ -149,6 +149,43 @@
 // console.log(x.split(" "));
 
 
+// let str = "Robert Sharma"
+
+// for (let index = 0; index < str.length; index++) {
+//     console.log(str[index], "sss");
+    
+//     if (str[index] == " ") {
+//         console.log(true);
+        
+//     }
+    
+// }
+
+
+
+
+
+function checkTypof(arr) {
+    let sum = 0
+
+for (let index = 0; index < arr.length; index++) {
+   
+     if ( typeof arr[index] === "number") {
+        
+         sum += arr[index]
+
+     }
+}
+return sum
+    
+}
+
+console.log(checkTypof([1, "Olma" , "Anor" ,15]));
+
+
+
+
+
 
 
 
