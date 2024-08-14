@@ -201,6 +201,27 @@
 
 
 
+    
+ function numberr(n, x) {
+
+    let  a = []
+    
+    for (let index = 1; index <= n; index++) {
+        
+        if (index % x === 0) {
+            
+            a.push(index)
+        }
+        
+    }
+
+    return a
+ }
+
+ console.log(numberr( 10, 3));
+ 
+
+
 
 
 
