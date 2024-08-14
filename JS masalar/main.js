@@ -165,22 +165,45 @@
 
 
 
-function checkTypof(arr) {
-    let sum = 0
+// function checkTypof(arr) {
+//     let sum = 0
 
-for (let index = 0; index < arr.length; index++) {
+// for (let index = 0; index < arr.length; index++) {
    
-     if ( typeof arr[index] === "number") {
+//      if ( typeof arr[index] === "number") {
         
-         sum += arr[index]
+//          sum += arr[index]
 
-     }
-}
-return sum
+//      }
+// }
+// return sum
     
-}
+// }
 
-console.log(checkTypof([1, "Olma" , "Anor" ,15]));
+// console.log(checkTypof([1, "Olma" , "Anor" ,15]));
+
+
+
+// function unitlNumber(num) {
+    
+// let x = 1
+
+// for (let index = 1; index <= num; index++) {
+//    x *= index
+    
+// }
+
+// return x
+    
+// }
+
+// console.log(unitlNumber(6));
+
+
+
+
+
+
 
 
 
