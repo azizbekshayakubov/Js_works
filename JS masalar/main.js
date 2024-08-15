@@ -202,24 +202,29 @@
 
 
     
- function numberr(n, x) {
+//  function numberr(n, x) {
 
-    let  a = []
+//     let  a = []
     
-    for (let index = 1; index <= n; index++) {
+//     for (let index = 1; index <= n; index++) {
         
-        if (index % x === 0) {
+//         if (index % x === 0) {
             
-            a.push(index)
-        }
+//             a.push(index)
+//         }
         
-    }
+//     }
 
-    return a
- }
+//     return a
+//  }
 
- console.log(numberr( 10, 3));
+//  console.log(numberr( 10, 3));
  
+
+// let name = prompt("Ismingizni kiriting")
+// let surname = prompt("Familyangizmi kiriting")
+
+// alert(`${name} ${surname}`)
 
 
 
