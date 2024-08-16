@@ -227,18 +227,58 @@
 // alert(`${name} ${surname}`)
 
 
-let num = prompt("Son kiriting")
-let fruts = prompt("Meva nomi")
+// let num = prompt("Son kiriting")
+// let fruts = prompt("Meva nomi")
 
-let  str = " "
+// let  str = " "
 
-for (let index = 1; index <= num; index++) {
+// for (let index = 1; index <= num; index++) {
     
-    str += fruts
+//     str += fruts
     
+// }
+
+// alert(str)
+
+
+// let arr =["behi" , "olma" , "anor"]
+// let someArr = ""
+
+// for (let index = 0; index < arr.length; index++) {
+//    for (let j = arr[index].length-1; j >=0; j--) {
+//     someArr += arr[index][j]
+    
+//    }
+// }
+
+// console.log(someArr.split(' '));
+
+
+
+function remo (str) {
+
+    let result = ""
+    let arr = str.splite('');
+
+   for (let index = 0; index < arr.length; index++) {
+      for (let j =  arr[index].length-1; j>=0 ; j--) {
+        
+        result += arr[index][j]
+        
+      }
+      result += " "
+    
+   }
+
+return  result;
+
 }
 
-alert(str)
+
+console.log(remo(' B Hello'));
+
+
+
 
 
 
