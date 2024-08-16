@@ -227,6 +227,19 @@
 // alert(`${name} ${surname}`)
 
 
+let num = prompt("Son kiriting")
+let fruts = prompt("Meva nomi")
+
+let  str = " "
+
+for (let index = 1; index <= num; index++) {
+    
+    str += fruts
+    
+}
+
+alert(str)
+
 
 
 
