@@ -17,7 +17,16 @@
 
 const link = document.querySelector("a");
 
-console.log(link.getAttribute("href"));
+// console.log(link.getAttribute("href"));
+
+
+
+link.setAttribute("href" , "github.com")
+link.innerText= "Hello"
+link.setAttribute("class" , "link")
+
+//css  style In Inline
+
 
 
   
