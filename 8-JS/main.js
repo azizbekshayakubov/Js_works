@@ -27,6 +27,26 @@ link.setAttribute("class" , "link")
 
 //css  style In Inline
 
+link.style.border = "1px solid red"
+// link.style.color  = "aqua" 
+
+link.classList.add("havola")
+link.classList.add("nimadir")
+link.classList.remove("havola")
+link.classList.toggle("link")
+link.textContent = ("Social medio")
+
+function  switchUp (number){
+
+  let  arr =   ["One" , "Two" , "Three" ]
+
+
+  return arr[number]
+
+}
+
+
+console.log(switchUp(2));
 
 
   
