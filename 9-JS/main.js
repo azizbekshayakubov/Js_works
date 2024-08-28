@@ -17,9 +17,16 @@ let obj = {
     age: 25
 }
 
-console.log(Object.keys(obj));
-console.log(Object.values(obj));
-console.log(Object.entries(obj));
+let  keys = Object.keys(obj)
+let  entries = Object.entries(obj)
+let values = Object.values(obj)
+ 
+
+for (let index = 0; index < keys.length; index++) {
+     console.log(obj[keys[index]]);
+     
+    
+}
 
 
 // for (el of obj) {
