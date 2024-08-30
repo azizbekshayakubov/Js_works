@@ -17,19 +17,33 @@ let obj = {
     age: 25
 }
 
-let  keys = Object.keys(obj)
-let  entries = Object.entries(obj)
-let values = Object.values(obj)
+// let  keys = Object.keys(obj)
+// let  entries = Object.entries(obj)
+// let values = Object.values(obj)
+
+// console.log(obj["age"]);
+
  
 
-for (let index = 0; index < keys.length; index++) {
-     console.log(obj[keys[index]]);
+// for (let index = 0; index < keys.length; index++) {
+//      console.log(obj[keys[index]]);
      
     
-}
+// }
+
+//for of array and string , is not for  object  
 
 
 // for (el of obj) {
 //     // console.log(el);
+    
+// }
+
+
+//FOR IN
+
+// for (el of arr) {
+//     // console.log(el);
+//     console.log(arr[el]);
     
 // }
