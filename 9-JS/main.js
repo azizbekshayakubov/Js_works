@@ -53,16 +53,24 @@
     
 // }
 
+// ForEach 
+//avvalgisini o'zgaritirmaydi = 
+//returin qaytaradimmi = forEach
 
-//avvalgisini o'zgaritiradimi 
 
-//returin qaytaradimmi 
+//Map
+//avvalgisini o'zgaritiramaydi = 
+//returin qaytaradi = forEach
+
 
 
 const arr = [23,54,65]
 
-arr.forEach(function (item, index , arr){
+let newArr = arr.map(function (item, index , arr){
     
-    console.log(`${index}: ${item} : ${arr}`);
-    
+    return  item + 5
+
 });
+
+
+console.log(newArr , arr);
