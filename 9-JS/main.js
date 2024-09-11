@@ -66,11 +66,21 @@
 
 const arr = [23,54,65]
 
-let newArr = arr.map(function (item, index , arr){
+const deletItem = arr.splice(0,1)
+
+console.log(deletItem, arr);
+
+
+
+//avvalgisini  arryni o'zgaritiradi = (reverse,pop,shift,unshift,push,splice)
+ 
+
+
+// let newArr = arr.map(function (item, index , arr){
     
-    return  item + 5
+//     return  item + 5
 
-});
+// });
 
 
-console.log(newArr , arr);
+// console.log(newArr , arr);
