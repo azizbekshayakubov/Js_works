@@ -67,6 +67,7 @@
 const arr = [23,54,65]
 
 const deletItem = arr.splice(0,1)
+const insterItem = arr.ins
 
 console.log(deletItem, arr);
 
