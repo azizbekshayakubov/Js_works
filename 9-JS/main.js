@@ -64,12 +64,6 @@
 
 
 
-const arr = [23,54,65]
-
-const deletItem = arr.splice(0,1)
-const insterItem = arr.ins
-
-console.log(deletItem, arr);
 
 
 
@@ -85,3 +79,44 @@ console.log(deletItem, arr);
 
 
 // console.log(newArr , arr);
+
+
+
+
+// const arr = [23,54,65,76,88]
+
+const arr = [
+    {
+        id:1,
+        nama: "Bek",
+        surname: "Bekzodov"
+    },
+    {
+        id:2,
+        nama: "yello",
+        surname: "Bhell"
+    },
+    {
+        id:3,
+        nama: "eee",
+        surname: "Bekzoddddov"
+    },
+]
+
+// const deletItem = arr.splice(0,1)
+// const insterItem = arr.ins
+ 
+
+
+let Findarr = arr.find(function (item,i,arr){
+
+    if (item.nama === "eee") {
+
+        return  true
+
+    }
+
+})
+
+
+console.log(Findarr);
