@@ -8,10 +8,17 @@
 
 //syntx sugar
 
-// let name =  "Azizbek Shoyoqubov"
+let name =  "Azizbek Shoyoqubov"
+let number = [1,32,4]
+
+// let tomildimi = name.includes("i")
+ let topdimo = number.includes(2)
+console.log(topdimo);
+
 
 // let obj = {
 //     name: "Azizbek",
+
 //     suname:"Shoyoqubov",
 //     age: 25
 // }
@@ -85,38 +92,50 @@
 
 // const arr = [23,54,65,76,88]
 
-const arr = [
-    {
-        id:1,
-        nama: "Bek",
-        surname: "Bekzodov"
-    },
-    {
-        id:2,
-        nama: "yello",
-        surname: "Bhell"
-    },
-    {
-        id:3,
-        nama: "eee",
-        surname: "Bekzoddddov"
-    },
-]
+// const arr = [
+//     {
+//         id:1,
+//         nama: "Bek",
+//         surname: "Bekzodov"
+//     },
+//     {
+//         id:2,
+//         nama: "yello",
+//         surname: "Bhell"
+//     },
+//     {
+//         id:3,
+//         nama: "eee",
+//         surname: "Bekzoddddov"
+//     },
+// ]
 
 // const deletItem = arr.splice(0,1)
 // const insterItem = arr.ins
  
 
 
-let Findarr = arr.find(function (item,i,arr){
+// let Findarr = arr.find(function (item,i,arr){
 
-    if (item.nama === "eee") {
+//     if (item.nama === "eee") {
 
-        return  true
+//         return  true
 
-    }
+//     }
 
-})
+// })
 
 
-console.log(Findarr);
+// console.log(Findarr);
+
+
+// const Findarr = arr.includes (function(item,i, arr){
+//     if(item.nama == "eees") {
+//         return item
+//     }
+    
+// })
+
+
+// console.log(Findarr);
+
