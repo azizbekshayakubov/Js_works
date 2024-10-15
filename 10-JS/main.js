@@ -89,6 +89,35 @@ const arr = [123,456,6554]
      
 // // })
 
-console.log(checkAge);
+// console.log(checkAge);
 
+// function decloration 
+
+// console.log(Hisay());
+
+
+// function sayHi() {
+  
+//     return "heello hi"
+// }
+
+// const Hisay =   function() {
+//     return "hello say"
+// }
+
+ 
+// let sayHi = () => {
+//     return "Hello ssssss"
+// }
+
+// console.log(sayHi());
+
+
+//callbackfunction 
+
+// arr.forEach( () => {
+
+// })
+
+// Self
 
