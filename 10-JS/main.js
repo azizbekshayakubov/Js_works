@@ -64,11 +64,30 @@ const arr = [123,456,6554]
 
 // console.log(checkAge);
 
-const ages = [40,50,19,14]
+// const ages = [45,1,23,48,36,3,7,5,9] 
 
-let checkAge = ages.sort(function(ages){
-    return ages > 18
-})
+
+// // let checkAge = ages.sort(function(ages){
+// //     return ages > 18
+// // })
+
+// let checkAge =  ages.sort (function (a,b) {
+//     return a-b
+// })
+
+
+// // ages.sort(function (a,b) {
+
+    
+//     // if(a>b) {
+//     //     return 1
+//     // } else if (a < b) {
+//     //      return -1
+//     // } else  {
+//     //     return 0
+//     // }
+     
+// // })
 
 console.log(checkAge);
 
