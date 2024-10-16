@@ -1,20 +1,42 @@
 
 
-let  a = "stengin"
-let b = a 
-b = "sister"
+// let  a = "stengin"
+// let b = a 
+// b = "sister"
+// // console.log(a);
+
+
+// let obj = {
+//     id:1,
+//     name: "Anvar",
+//     type: "Strong"
+// }
+
+
+// let x = obj
+ 
+// x=obj
+
+// console.log(obj);
+
+
+// let arr = [1,3,5,6]
+
+// let a = arr
+
+// arr = null
+
+// a = "Salom"
+
 // console.log(a);
 
+let name = "Saidmurod"
 
-let obj = {
-    id:1,
-    name: "Anvar",
-    type: "Strong"
-}
+let  a = name
 
+let b = a
 
-let x = obj
- 
-x=obj
+a = "Bobur"
 
-console.log(obj);
+console.log(name);
+
