@@ -30,13 +30,20 @@
 
 // console.log(a);
 
-let name = "Saidmurod"
+// let name = "Saidmurod"
 
-let  a = name
+// let  a = name
 
-let b = a
+// let b = a
 
-a = "Bobur"
+// a = "Bobur"
 
-console.log(name);
+// console.log(name);
+
+
+
+const container = document.querySelector('div')
+
+console.log(container.children);
+console.log(Array.from(container.children));
 
