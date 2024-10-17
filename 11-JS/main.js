@@ -44,6 +44,12 @@
 
 const container = document.querySelector('div')
 
-console.log(container.children);
-console.log(Array.from(container.children));
+// console.log(container.children);
+// console.log(Array.from(container.children)[3]);
 
+let list = Array.from(container.children)
+
+list.map(item=>{
+    console.log(item);
+    
+})
