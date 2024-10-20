@@ -44,12 +44,51 @@
 
 const container = document.querySelector('div')
 
-// console.log(container.children);
-// console.log(Array.from(container.children)[3]);
+const span = document.querySelector('span')
+
+// console.log(span.nextElementSibling.style.color = "red");
+
+// console.log(span.previousElementSibling.classList.add('smth'));
+
+// console.log(span.parentElement.classList.add('smth'));
 
 let list = Array.from(container.children)
 
 list.map(item=>{
-    console.log(item);
+    
+    item.addEventListener('')
     
 })
+
+
+
+
+
+
+
+// console.log(container.children);
+// console.log(Array.from(container.children)[3]);
+
+
+
+// let list = Array.from(container.children)
+
+// list.map(item=>{
+//     item.classList.add("smth")
+    
+// })
+
+
+
+
+
+//STYLE
+// span.style.color = "red"
+// span.style.backgroundColor = "black"
+
+// span.setAttribute( "class" , "smth") 
+
+// span.classList.add('smth')
+
+// console.log(span)
+
