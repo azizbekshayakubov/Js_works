@@ -43,8 +43,8 @@
 
 
 const container = document.querySelector('div')
-
 const span = document.querySelector('span')
+const btn = document.querySelector('button')
 
 // console.log(span.nextElementSibling.style.color = "red");
 
@@ -56,8 +56,36 @@ let list = Array.from(container.children)
 
 list.map(item=>{
     
-    item.addEventListener('')
+    item.addEventListener('click' , (e) => {
+        
+        e.target.classList.toggle('smth');
+        
+
+    // item.style.color = "red "
+    // item.classList.toggle('smth')
     
+    })
+    
+})
+
+btn.addEventListener('click' ,  (e)=> {
+
+let lint =  document.createElement('a')
+lint.textContent = "google"
+lint.setAttribute("href" , "#")
+// console.log(lint);
+
+container.append(lint)
+
+
+
+    
+
+    // container.innerHTML += '<h2>Heading2</h2>'
+
+//   console.log( e.target , "bosildi");
+  
+
 })
 
 
