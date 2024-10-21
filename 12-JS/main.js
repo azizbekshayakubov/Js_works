@@ -10,7 +10,11 @@ arrBtn.map(item=> {
          let valu = e.target.textContent
 
          switch(valu) {
-                
-         
+        
+                default:
+                    freeSpace.textContent += valu
+         }
+
+
     })
 })
