@@ -10,7 +10,18 @@ arrBtn.map(item=> {
          let valu = e.target.textContent
 
          switch(valu) {
-        
+                case 'DEL':
+                    return freeSpace.textContent = freeSpace.textContent.slice(0,-1)
+                    break;
+                    case 'C':
+                        return freeSpace.textContent = ""
+                        break;
+                        case '=':
+                        try{
+                            return freeSpace.textContent = eval(freeSpace.textContent)   
+                        } catch {
+                            freeSpace.textContent = err.message 
+                        }
                 default:
                     freeSpace.textContent += valu
          }
