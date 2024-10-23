@@ -21,7 +21,24 @@ form.addEventListener('submit', e =>{
         
     }
     scrollTo(0,0)
-    userScore.textContent = `${score}%`
     result.classList.remove("d-none")
+    let i =0
+    let timer = setInterval(() => {
+    userScore.textContent = `${i}%`
+    
+    if (i == score) {
+        clearInterval(timer)
+    }else{
+        i++
+    }
+    
+}, 25);
+
+    
 
 })
+
+
+// setTimeout(() => {
+    
+// }, 1000);
