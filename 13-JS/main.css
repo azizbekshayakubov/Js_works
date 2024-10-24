@@ -1,3 +1,19 @@
 .active{
   text-decoration: line-through;
 }
+
+ul{
+  height: 300px;
+}
+
+li{
+  background-color: gray;
+  padding: 10px 8px;
+  margin-bottom: 10px;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
