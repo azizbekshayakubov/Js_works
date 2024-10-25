@@ -17,3 +17,10 @@ div{
   height: 200px;
   background-color: aquamarine;
 }
+span{
+  width: 20px;
+  height: 20px;
+  display: none;
+  background-color: rgb(250, 148, 14);
+  border-radius: 50%;
+}

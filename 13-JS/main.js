@@ -1,10 +1,15 @@
 const itmes = document.querySelectorAll("li")
 const list = document.querySelector("ul")
+const body = document.querySelector("body")
 const btn = document.querySelector("button")
 const div = document.querySelector("div")
+const span = document.querySelector("span")
 
-div.addEventListener("mouseover" , (e)=>{
-    console.log(`x:${e.offsetX}, y:${e.offsetY}`);
+body.addEventListener("wheel" , (e)=>{
+    console.log(`x:${e.pageX}, y:${e.pageY}`);
+    if (e.pageX> 0 && e.pageY>500) {
+        span.style.display = "block"
+    }
     
 })
 
