@@ -1,13 +1,16 @@
-const username = document.querySelector("#username")
+// const username = document.querySelector("#username")
 const form = document.querySelector("form")
 
 form.addEventListener('submit' , e => {
     e.preventDefault() 
     console.log(form.username.value);
     console.log(e.target.username.value);
-    
-    
 })
+
+let username = "           Alijon     "
+let pattern = /^[a-zA-Z]$/
+let result = pattern.test(username);
+console.log(result);
 
 
 
