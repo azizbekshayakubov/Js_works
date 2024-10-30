@@ -1,16 +1,43 @@
 // const username = document.querySelector("#username")
 const form = document.querySelector("form")
+const span = document.querySelector("span")
+let pattern = /^[a-zA-Z]{6,10}$/
 
 form.addEventListener('submit' , e => {
     e.preventDefault() 
-    console.log(form.username.value);
-    console.log(e.target.username.value);
+   
+    let inputValue = e.target.username.value
+    if (pattern.test(inputValue)) {
+        span.innerText = "To'g'ri"
+    } else {
+        span.textContent = " "
+    }
+    form.reset()
 })
 
-let username = "           Alijon     "
-let pattern = /^[a-zA-Z]$/
-let result = pattern.test(username);
-console.log(result);
+
+
+form.addEventListener('keyup' , e =>{
+let inputValue = e.target.value;
+if (pattern.test(inputValue)) {
+    e.target.style.border = "2px solid green"
+} else {
+    e.target.style.border = "2px solid red"
+}
+    
+})
+
+// let username = "Alijsonr"
+// // let result = pattern.test(username);
+// let result = username.search(pattern);
+
+// console.log(result);
+
+
+//test()  true/false
+//search() 0/-1
+
+//RegEx = Regular expression
 
 
 
