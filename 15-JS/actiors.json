@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "Artisname": "Elbek",
+        "ArtisSurname": "Lutfullayv"
+        
+    },
+    {
+        "id": 2,
+        "Artisname": "Tursun",
+        "ArtisSurname": "Abdusattorov"
+        
+    },
+    {
+        "id": 3,
+        "Artisname": "Doniyor",
+        "ArtisSurname": "Bo'riyev"
+        
+    },
+    {
+        "id": 4,
+        "Artisname": "Bobir",
+        "ArtisSurname": "Teshaboyev"
+        
+    }
+]

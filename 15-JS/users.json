@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Abdusattor",
+        "surname": "Lutfullayv",
+        "isstudens": false
+    },
+    {
+        "id": 2,
+        "name": "Qosim",
+        "surname": "Abdusattorov",
+        "isstudens": true
+    },
+    {
+        "id": 3,
+        "name": "Doniyor",
+        "surname": "Bo'riyev",
+        "isstudens": false
+    },
+    {
+        "id": 4,
+        "name": "Bobir",
+        "surname": "Teshaboyev",
+        "isstudens": true
+    }
+]
