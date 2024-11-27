@@ -8,20 +8,34 @@ request.addEventListener('readystatechange' , ()=>{
         callback("cloud not fetch" , undefined) 
     }
 })
-
-
 // CRUD 
 request.open('GET' , url)
 request.send()
 }
-const container = document.querySelector('div')
-getTodos("users.json" , (err, data)=>{
 
-    if (!data) {
-        console.log(err);
+
+
+// const container = document.querySelector('div')
+// getTodos("users.json" , (err, data)=>{
+
+//     if (!data) {
+//         console.log(err);
         
-    } else {
-        console.log(data);
-       }
-    }
-)
+//     } else {
+//         console.log(data);
+//          getTodos("todos.json" , (err, data)=>{
+
+//     if (!data) {
+//         console.log(err);
+        
+//     } else {
+//         console.log(data);
+        
+        
+//        }
+//     }
+// )
+        
+//        }
+//     }
+// )
