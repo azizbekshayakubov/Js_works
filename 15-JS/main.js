@@ -1,28 +1,50 @@
-function fetchUr() {
-  let request  = fetch('https://jsonplaceholder.typicode.com/todos/')
-      request.then(response => response.json())
-      .then(json => 
-       json.map((item => {
-       console.log(item);
+// function fetchUr() {
+//   let request  = fetch('https://jsonplaceholder.typicode.com/todos/')
+//       request.then(response => response.json())
+//       .then(json => 
+//        json.map((item => {
+//        console.log(item);
        
-        if (item.id === 10) {
-            item.password = "234"
-        }
+//         if (item.id === 10) {
+//             item.password = "234"
+//         }
 
-       const container = document.querySelector ('div')
-       const heading = document.createElement('h1')
-       const password = document.createElement('h3')
-       heading.textContent = item.title 
-       password.textContent = item.completed
-       container.append(heading)
-       container.append(password)
+//        const container = document.querySelector ('div')
+//        const heading = document.createElement('h1')
+//        const password = document.createElement('h3')
+//        heading.textContent = item.title 
+//        password.textContent = item.completed
+//        container.append(heading)
+//        container.append(password)
        
-      }
-      )))
+//       }
+//       )))
+// }
+
+// fetchUr()
+
+
+// const promise =  new Promise((resolved, rejected)=>{
+//       resolved("data keldi")
+//       rejected("there are some errors")
+// })
+
+
+//handle  promise boshqarish
+// 1) then=> promise chaining .catch(err => errs)
+// 2) async await
+
+promise.then((data)=> console.log(data)).catch(err=>console.log(err));
+
+function fetching (params) {
+    let request = fetch("todos.json")
+    console.log(request);
+    
+    
 }
 
-fetchUr()
-
+// fetching()
+// console.log(promise);
 
 
 
