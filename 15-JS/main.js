@@ -1,3 +1,40 @@
+
+async function fetching() {
+   try {
+    let request = await fetch ("todos.json")
+    let request2 = await fetch ("useres.json")
+    let res =  await request.json()
+    let res2 =  await request2.json()
+    let data = res.map(item=> console.log(item))
+    let data2 = res2.map(item=> console.log(item))
+    return {data, data2}
+   } catch (err) {
+    console.log(err);
+    
+   }
+
+    
+        //     const container = document.querySelector ('div')
+        //    const heading = document.createElement('h1')
+        //    const password = document.createElement('h3')
+        //    heading.textContent = item.title 
+        //    password.textContent = item.completed
+        //    container.append(heading)
+        //    container.append(password)
+    
+
+    
+    
+}
+
+fetching()
+
+
+
+
+
+
+
 // function fetchUr() {
 //   let request  = fetch('https://jsonplaceholder.typicode.com/todos/')
 //       request.then(response => response.json())
@@ -16,9 +53,9 @@
 //        password.textContent = item.completed
 //        container.append(heading)
 //        container.append(password)
-       
 //       }
-//       )))
+//       ))).catch(err=>console.log(err))
+      
 // }
 
 // fetchUr()
@@ -34,14 +71,14 @@
 // 1) then=> promise chaining .catch(err => errs)
 // 2) async await
 
-promise.then((data)=> console.log(data)).catch(err=>console.log(err));
+// promise.then((data)=> console.log(data)).catch(err=>console.log(err));
 
-function fetching (params) {
-    let request = fetch("todos.json")
-    console.log(request);
+// function fetching (params) {
+//     let request = fetch("todos.json")
+//     console.log(request);
     
     
-}
+// }
 
 // fetching()
 // console.log(promise);
