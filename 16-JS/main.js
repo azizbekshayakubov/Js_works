@@ -52,14 +52,18 @@ const headring = document.querySelector("h1")
 const time = () =>{
 
 const now = new Date()
-const  hours = now.getHours()
-const minuts  = now.getMinutes()
-const sekunds = now.getSeconds()
+let  hours = now.getHours()
+let minuts  = now.getMinutes()
+let sekunds = now.getSeconds()
+hours = hours < 10 ? "0" + hours : hours
+minuts = minuts < 10 ? "0" + minuts : minuts
+sekunds = sekunds < 10 ? "0" + sekunds : sekunds
+
 headring.textContent = `${hours}: ${minuts}: ${sekunds}`
 
 }
 
-console.log(time());
+// console.log(time());
 
 
 setInterval(time,1000)
