@@ -46,11 +46,20 @@
 // // Math.pow()
 
 
+const headring = document.querySelector("h1")
+
+
+const time = () =>{
 
 const now = new Date()
- 
- const  hours = now.getHours()
+const  hours = now.getHours()
 const minuts  = now.getMinutes()
 const sekunds = now.getSeconds()
+headring.textContent = `${hours}: ${minuts}: ${sekunds}`
 
-console.log(`${hours}: ${minuts}: ${sekunds}`);
+}
+
+console.log(time());
+
+
+setInterval(time,1000)
