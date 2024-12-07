@@ -45,37 +45,65 @@
 // console.log(Malibu);
 // console.log(Spark);
 
-class Cat {
-    name;
-    color;
-    age;
-    paroda;
-    constructor(name, color, age, paroda  ) {
-        this.color= color 
-        this.name= name;
-        this.age = age
-        this.paroda = paroda    
+// class Cat {
+//     name;
+//     color;
+//     age;
+//     paroda;
+//     constructor(name, color, age, paroda  ) {
+//         this.color= color 
+//         this.name= name;
+//         this.age = age
+//         this.paroda = paroda    
 
-    }
+//     }
 
-  //metod
+//   //metod
 
-  speak(){
-    console.log( `Salom dunyo mening ismi ${this.name}`);
+//   speak(){
+//     console.log( `Salom dunyo mening ismi ${this.name}`);
     
-  }
-}
+//   }
+// }
 
-//metod
-
-
+// //metod
 
 
-const Gardild = new Cat("Garfidd" , "grawn" , 23 , "look")
-const mushuk = new Cat("Etilik mushuk" , "orange" , 23 , "Hello")
 
-console.log(Gardild.speak());
+
+// const Gardild = new Cat("Garfidd" , "grawn" , 23 , "look")
+// const mushuk = new Cat("Etilik mushuk" , "orange" , 23 , "Hello")
+
+// console.log(Gardild.speak());
 
 
 
   
+class Animal {
+    
+    name;
+    color;
+
+    constructor(name, color){
+      this.name = name
+      this.color = color 
+    }
+}
+
+
+class Dog extends Animal{
+     name;
+     color;
+     constructor(name, color) {
+        super()
+        this.name= name
+        this.color = color
+     }
+}
+
+
+//instance from DOG
+const pitbull= new Dog( "Pitbull" , "yellow")
+
+console.log(pitbull);
+
