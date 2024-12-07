@@ -24,23 +24,58 @@
 // }
 
 
-class Car {
+// class Car {
+//     name;
+//     color;
+//     cost;
+//     type;
+
+//     constructor(name,color,cost,type) {
+//         this.name=name
+//         this.color=color
+//         this.cost=cost
+//         this.type=type
+//     }
+// }
+// //instance 1
+// const Malibu = new Car("Malibu", "red", 30000, "sedan")
+
+// //instance2
+// const Spark = new Car("Spark", "black", 50000, "supercar")
+// console.log(Malibu);
+// console.log(Spark);
+
+class Cat {
     name;
     color;
-    cost;
-    type;
+    age;
+    paroda;
+    constructor(name, color, age, paroda  ) {
+        this.color= color 
+        this.name= name;
+        this.age = age
+        this.paroda = paroda    
 
-    constructor(name,color,cost,type) {
-        this.name=name
-        this.color=color
-        this.cost=cost
-        this.type=type
     }
+
+  //metod
+
+  speak(){
+    console.log( `Salom dunyo mening ismi ${this.name}`);
+    
+  }
 }
 
-const Malibu = new Car("Malibu", "red", 30000, "sedan")
-const Spark = new Car("Spark", "black", 50000, "supercar")
-console.log(Malibu);
-console.log(Spark);
+//metod
 
 
+
+
+const Gardild = new Cat("Garfidd" , "grawn" , 23 , "look")
+const mushuk = new Cat("Etilik mushuk" , "orange" , 23 , "Hello")
+
+console.log(Gardild.speak());
+
+
+
+  
