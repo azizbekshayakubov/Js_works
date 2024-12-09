@@ -67,8 +67,12 @@ class Tools {
     return `Bu bagni ichida ${this.book}, ${this.pencil} , ${this.container}, ${this.eraser}  bor`
   }
 
-  set changeBox (arr) {
-    return typeof arr [0] === "string" ? this.book : undefined
+  set changeBox (newName) {
+    if (typeof newName === "string") {
+      return this.book = newName
+    } else {
+      return this.book
+    }
   }
 }
 
@@ -76,7 +80,7 @@ class Tools {
 
 //instance
 
-const obj = new Tools ( "Hello Book" , "Ruchka" ,"Box", "Eraa" )
-Tools.changeBox = ["chimyo"]
-console.log(obj.bag);
-console.log();
+const obj = new Tools ( "Viqro" , "Ruchka" ,"Box", "Eraa" )
+obj.changeBox= ["hello"]
+console.log(obj);
+
