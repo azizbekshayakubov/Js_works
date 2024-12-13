@@ -21,19 +21,22 @@ class Animal {
 class Dog extends Animal {
     
   constructor (rang){
+    super("Rex")
     this.color = rang
   }
 
 }
 
 
-const rext = new Dog ("Rexi", "Blur")
+const rext = new Dog ("Blur")
 
 console.log(rext);
 
 //drived class
 class Cat extends Animal {
+    
     constructor (rang){
+      super()
     this.color = rang
   }
 }
