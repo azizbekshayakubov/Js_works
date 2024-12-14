@@ -11,26 +11,21 @@
 
 // Super class
 class Animal {
-    name;
-    constructor(ism){
-    this.name = ism
+    constructor(name){
+    this.name = name
+    }
+
+    speak (){
+      return `My name is ${this.name}`
     }
 }
 
 //drived class
-class Dog extends Animal {
-    
-  constructor (rang){
-    super("Rex")
-    this.color = rang
-  }
+class Dog extends Animal {}
 
-}
+const rext = new Dog ("Rex")
 
-
-const rext = new Dog ("Blur")
-
-console.log(rext);
+console.log(rext.speak());
 
 //drived class
 class Cat extends Animal {
