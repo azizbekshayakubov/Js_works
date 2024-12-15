@@ -1,79 +1,104 @@
-// let number = 6.4
+// // let number = 6.4
 
-// // console.log(Math.random());
-// // console.log(Math.floor(number));
-// // console.log(Math.ceil(number));
-// console.log(Math.trunc(number));
-// console.log(Math.round(number));
-// console.log(Math.round(number));
-// console.log(Math.pow(4, 1/2));
-// console.log(Math.abs(-5));
+// // // console.log(Math.random());
+// // // console.log(Math.floor(number));
+// // // console.log(Math.ceil(number));
+// // console.log(Math.trunc(number));
+// // console.log(Math.round(number));
+// // console.log(Math.round(number));
+// // console.log(Math.pow(4, 1/2));
+// // console.log(Math.abs(-5));
 
-// // Super class
-// class Animal {
-//     constructor(name){
-//     this.name = name
-//     }
+// // // Super class
+// // class Animal {
+// //     constructor(name){
+// //     this.name = name
+// //     }
 
-//     speak (){
-//       return `My name is ${this.name}`
-//     }
+// //     speak (){
+// //       return `My name is ${this.name}`
+// //     }
+// // }
+
+// //drived class
+
+
+// class Animal{
+//   constructor(options) {
+//     this.name = options.ism;
+//     this.hasTail = options.dumiBormi;
+//     this.color = options.rangi
+//     this.type = options.turi
+
+//   }
+//  }
+
+
+// class Dog extends Animal {
+//   constructor(options) {
+//     super(options)
+//     this.paroda = options.nasl
+//   }
 // }
 
-//drived class
+// const rext = new Dog ({
+//   ism: "Rex",
+//   dumiBormi: true,
+//   rangi: "red",
+//   turi: "Yertqich",
+//   nasl: "Bo'ribosar"
+// })
 
 
-class Animal{
-  constructor(options) {
-    this.name = options.ism;
-    this.hasTail = options.dumiBormi;
-    this.color = options.rangi
-    this.type = options.turi
-
-  }
- }
+// console.log(rext);
 
 
-class Dog extends Animal {
-  constructor(options) {
-    super(options)
-    this.paroda = options.nasl
-  }
-}
-
-const rext = new Dog ({
-  ism: "Rex",
-  dumiBormi: true,
-  rangi: "red",
-  turi: "Yertqich",
-  nasl: "Bo'ribosar"
-})
+// class Cat extends Animal {
+//   constructor(options) {
+//     super(options) 
+//     this.aga = options.yosh
+//   }
+// }
 
 
-console.log(rext);
+// const Mosh = new Cat ({
+//    ism: "Mosh",
+//   dumiBormi: true,
+//   rangi: "wihit",
+//   turi: "uy xayvoni",
+//   yosh: 24
+// })
 
 
-class Cat extends Animal {
-  constructor(options) {
-    super(options) 
-    this.aga = options.yosh
-  }
-}
-
-
-const Mosh = new Cat ({
-   ism: "Mosh",
-  dumiBormi: true,
-  rangi: "wihit",
-  turi: "uy xayvoni",
-  yosh: 24
-})
-
-
-console.log(Mosh);
+// console.log(Mosh);
 
 
 
 
 
+
+// function foo () {
+//   console.log("foo");
+// }
+
+// function bar () {
+//   foo()
+//   console.log("bar");
+// }
+
+// function qux () {
+//   bar()
+//   console.log("qux");
+// }
+
+// function test () {
+//   qux()
+//   console.log("test");
+// }
+
+// test()
+
+
+console.log("Salom");
+console.log();
 
