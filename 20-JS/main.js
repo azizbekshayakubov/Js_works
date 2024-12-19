@@ -23,10 +23,19 @@
 // console.log(a);
 
 
-var a = 10;
-function sum () {
-    a =12 
-    return a
+// var a = 10;
+// function sum () {
+//     a =12 
+//     return a
+// }
+// sum()
+// console.log(a);
+
+
+console.log(sum(4,5));
+
+var sum = function(x, y) {
+    return x +y 
 }
-sum()
-console.log(a);
+
+
